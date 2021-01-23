@@ -1,0 +1,33 @@
+
+Release Notes - NuCurrent Binary images for NuCurrent Near Field Communication, NFC, Slotted Power Development Kit
+
+2021-01-22  Binary Release B0.00.02.00
+
+
+EEPROM Binaries
+--------------------
+EEPROM_CM_R229M_vAlpha.bin
+EEPROM_CM_T230M_vAlpha.bin
+EEPROM_SPDK_R229M_vAlpha.bin
+EEPROM_SPDK_T230M_vAlpha.bin
+
+- add support for 106k OTA
+
+
+Application Binaries
+--------------------
+Applicaiton_SPDK_R229M_vB0.00.02.00.bin
+Application_CM_R229M_vB0.00.02.00.bin
+Application_CM_T230M_vB0.00.02.00.bin
+Application_SPDK_T230M_vB0.00.02.00.bin
+
+- SPDK-2 1.5mS slot operation
+- SPDK-3 support for 't' command
+
+
+Host Utility
+--------------------
+nuc_spdk_util_v0_2.exe
+
+- add trace.log binary log output for debugging
+
